@@ -1,1 +1,78 @@
 /*  your css code here. If applicable */
+body {
+	font-family: Arial, sans-serif;
+	display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+      background-color: #f4f4f4;
+}
+
+#verification_heading {
+	font-size: 24px;
+	font-weight: bold;
+	margin-bottom: 10px;
+	text-align: center;
+}
+#verification_subtext {
+	font-size: 14px;
+	color: #666;
+	margin-bottom: 20px;
+	text-align: center;
+}
+.center-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+}
+
+.code-container {
+	display: flex;
+	justify-content: center;
+    width: 180px; /* Adjust the width based on your design */
+    margin-top: 20px;
+}
+.code {
+	width: 55px;
+	height: 80px;
+	text-align: center;
+	font-size: 18px;
+	border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 0 5px;
+	font-size: 35px;
+	font-weight: bold;
+
+}
+.code:focus {
+	outline: none;
+	border-color: #3498db;
+}
+
+.code::placeholder {
+	  font-size: 35px;
+      font-weight: bold;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
